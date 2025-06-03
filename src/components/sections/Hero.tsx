@@ -1,5 +1,6 @@
 import { Container } from "../shared/Container";
 import { Paragraph } from "../shared/Paragraph";
+import image  from "../../assets/1040a.png"
 
 export const Hero = () => {
   return (
@@ -39,7 +40,7 @@ export const Hero = () => {
 
         <div className="flex flex-1 lg:w-1/2 lg:h-auto relative lg:max-w-non lg:mx-0 mx-auto max-w-3xl">
           <img
-            src="/src/assets/1040a.png"
+            src={image}
             alt="Hero image"
             width={2350}
             height={2359}
