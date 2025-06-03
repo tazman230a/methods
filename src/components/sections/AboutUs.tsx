@@ -2,6 +2,7 @@ import { Info } from "../cards/Info";
 import { Container } from "../shared/Container";
 import { Paragraph } from "../shared/Paragraph";
 import { Title } from "../shared/Title";
+import image from "../../assets/financial1.png"
 
 export const AboutUs = () => {
   return (
@@ -22,7 +23,7 @@ export const AboutUs = () => {
         <div className="w-full md:w-5/12 lg:w-1/2">
           <div className="w-full h-80 sm:h-96 relative">
             <img
-              src="/src/assets/financial1.png"
+              src={image}
               className="w-full h-[30rem] object-cover rounded-3xl shadow-lg relative z-10"
               alt="About us"
             />
