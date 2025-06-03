@@ -36,7 +36,7 @@ export const Navbar = () => {
             <ul
               className="border-t border-box-border lg:border-t-0 px-6 lg:px-0 
                            pt-6 lg:pt-0 flex flex-col lg:flex-row gap-y-4 gap-x-3 
-                           text-lg text-heading-2 w-full lg:justify-center lg:items-center"
+                           text-xl text-heading-2 w-full lg:justify-center lg:items-center"
             >
               {navItems.map((item, key) => (
                 <NavItem href={item.href} text={item.text} key={key} />
@@ -47,7 +47,7 @@ export const Navbar = () => {
                             lg:pb-0 border-b border-box-border lg:border-0
                             px-6 lg:px-0"
             >
-              <BtnLink text="Get Started" href="#cta" className="" />
+              <BtnLink text="Contact Me" href="#contact" className="" />
             </div>
           </div>
 
