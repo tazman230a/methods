@@ -7,9 +7,9 @@ import image from "../../assets/financial1.png"
 export const AboutUs = () => {
   return (
     <section id="about-us">
-      <div className="text-center mx-[7rem] pb-8">
+      <div className="text-center  md:mx-[7rem] pb-8">
         <Title>About Us</Title>
-        <Paragraph>
+        <Paragraph className="mt-4">
           We are Tax business that has been serving the Los Angeles community
           for 30 years. We specialize in personal income tax preparation,
           complete small business services, financial reporting, SBA loans,
@@ -21,7 +21,7 @@ export const AboutUs = () => {
 
       <Container className="flex flex-col md:flex-row gap-10 lg:gap-12 items-center">
         <div className="w-full md:w-5/12 lg:w-1/2">
-          <div className="w-full h-80 sm:h-96 relative">
+          <div className="w-full sm:h-96 relative">
             <img
               src={image}
               className="w-full h-[30rem] object-cover rounded-3xl shadow-lg relative z-10"
