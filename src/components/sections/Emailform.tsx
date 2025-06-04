@@ -3,7 +3,7 @@ import { Paragraph } from "../shared/Paragraph";
 
 export const EmailForm = () => {
   return (
-    <div className="w-1/2 p-5 border border-box-border bg-box-bg rounded-2xl">
+    <div className=" p-5 border border-box-border bg-box-bg rounded-2xl">
       <h1 className="text-center text-2xl font-bold">Let's work together</h1>
       <Paragraph className="text-xl text-center font-semibold py-2">
         We are looking forward to working with you.

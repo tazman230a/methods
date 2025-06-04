@@ -35,9 +35,9 @@ export const Contact = () => {
           </h1>
         </div>
 
-        <div className="flex-1 md:flex">
+        <div className="flex flex-col md:flex-row sm:py3">
           <EmailForm />
-          <div className="flex-1 flex items-center xl:justify-end order-1 xl:order-none mb-8 xl:mb-0">
+          <div className="flex items-center pl-11 xl:justify-end order-1 xl:order-none mb-8 xl:mb-0">
             <ul className="flex flex-col gap-10">
               {info.map((item, index) => {
                 return (
