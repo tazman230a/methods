@@ -30,7 +30,7 @@ export const AboutUs = () => {
           </div>
         </div>
 
-        <div className="w-full md:w-7/12 lg:w-1/2 flex flex-col">
+        <div className="w-full md:w-7/12 lg:w-1/2 flex flex-col max-md:py-11">
           <div className="pt-8 grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-3xl">
             <Info
               title="Incorporations"

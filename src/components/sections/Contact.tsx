@@ -35,10 +35,10 @@ export const Contact = () => {
           </h1>
         </div>
 
-        <div className="flex flex-col md:flex-row sm:py3">
+        <div className="flex flex-col md:flex-row ">
           <EmailForm />
           <div className="flex items-center pl-11 xl:justify-end order-1 xl:order-none mb-8 xl:mb-0">
-            <ul className="flex flex-col gap-10">
+            <ul className="flex flex-col gap-10 max-md:py-6">
               {info.map((item, index) => {
                 return (
                   <li key={index} className="flex items-center gap-6 px-5">
