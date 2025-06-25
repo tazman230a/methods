@@ -24,6 +24,10 @@ export const Services = () => {
           ))}
         </div>
       </Container>
+
+      <h1 className="text-heading-1 font-bold text-center pt-6">
+        More of Our Services...
+      </h1>
     </section>
   );
 };

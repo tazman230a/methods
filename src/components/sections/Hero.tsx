@@ -23,7 +23,7 @@ export const Hero = () => {
           <p className="text-heading-3 text-2xl font-semibold pb-3">Tax Accountant</p>
           <h1 className="text-heading-1 text-3xl sm:text-4xl md:text-5xl xl:text-6xl font-bold">
             Hello I'm
-            <br /> Mr. Fred Minter
+            <br /> M. Fred Minter
           </h1>
           <Paragraph className="mt-8">
             Specialize in helping small businesses with tax and financial needs.
